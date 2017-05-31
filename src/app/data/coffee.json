@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1, 
+        "image": "src/assets/images/catalogs/coffee/1.jpg" 
+    },
+    { 
+        "id": 2, 
+        "image": "src/assets/images/catalogs/coffee/2.jpg" 
+    },
+    { 
+        "id": 3, 
+        "image": "src/assets/images/catalogs/coffee/3.jpg" 
+    },
+    { 
+        "id": 4, 
+        "image": "src/assets/images/catalogs/coffee/4.jpg" 
+    },
+    { 
+        "id": 5, 
+        "image": "src/assets/images/catalogs/coffee/5.jpg" 
+    }
+] 

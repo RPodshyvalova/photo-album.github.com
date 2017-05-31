@@ -1,0 +1,15 @@
+<div class="row"> 
+    <div class="back-nav col-sm-11 col-sm-offset-1" (click)="goBack()">
+        <i class="glyphicon glyphicon-chevron-left"></i>Back
+    </div>
+    <div class="col-sm-11 col-sm-offset-1">
+        <div *ngFor="let item of images">
+            <div class="col-sm-3 panel panel-default">
+                <img src="{{item.image}}"  alt="image" class="img-thumbnail img-responsive">
+                <div (click)="getMoreInfo(item.id)">
+                    <p>Select&nbsp;&nbsp;<i class="glyphicon glyphicon-ok"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div> 

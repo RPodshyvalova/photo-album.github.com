@@ -1,0 +1,15 @@
+<div class="row panel panel-default"> 
+    <div class="col-sm-3">
+        <img #image src="{{catalog?.image}}"  alt="image" class="img-thumbnail img-responsive">
+    </div> 
+    <div class="col-sm-7">
+        <h4>{{catalog?.title}}</h4>
+        <p>{{catalog?.size}}</p>
+        <p>{{catalog?.time}}</p>
+    </div> 
+    <div class="col-sm-1">
+        <div (click)="getMoreInfo()">
+            <i class="glyphicon glyphicon-chevron-right pull-right"></i>
+        </div>
+    </div>
+</div>  

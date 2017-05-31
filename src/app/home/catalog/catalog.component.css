@@ -1,0 +1,21 @@
+h4 {
+  color: #1c62a9;
+}
+
+p {
+  color: #a0a0a0;
+  font-size: 12px;
+}
+
+.glyphicon.glyphicon-chevron-right {
+  color: #1c62a9; 
+  font-size: 20px;
+}
+
+img {
+  min-width: 100%;
+}
+
+.panel-default {
+  background-color: #f6f6f6;  
+}

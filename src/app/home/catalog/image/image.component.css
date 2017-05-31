@@ -1,0 +1,14 @@
+img {
+  min-width: 100%;
+}
+
+.panel-default {
+  background-color: #f6f6f6; 
+  margin: 20px;
+  padding: 5px;
+}
+
+.back-nav {
+  color: lightgray; 
+  font-size: 20px; 
+}
